@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800;900&family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+  --first-color: #6070ff;
+  --title-color: #172b4d;
+  --text-color: #344563;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.menu-container,
+.main {
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #6070ff;
+}
+
+.main {
+  background-image: url('./images/header-shapes\ mobile.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 4rem 1rem;
+}
+
+.heading1 {
+  font-size: 51px;
+  font-weight: 700;
+  color: var(--title-color);
+  line-height: 4rem;
+  padding-top: 2rem;
+}
+
+.bio {
+  font-style: normal;
+  padding: 20px 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--text-color);
+}
+
+.conn {
+  color: #7f8cff;
+  padding-bottom: 15px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.media-container {
+  display: flex;
+  gap: 20px;
+}
+
+@media only screen and (min-width: 375px) {
+  .main {
+    width: auto;
+    padding: 5rem 2rem;
+    flex-wrap: nowrap;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .menu-container,
+  .main {
+    width: 30%;
+  }
+}
