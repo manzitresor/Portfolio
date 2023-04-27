@@ -11,3 +11,22 @@
   margin: 0;
   padding: 0;
 }
+
+.menu-container,
+.main {
+  width: 30%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #6070ff;
+}
