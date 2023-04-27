@@ -10,6 +10,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
 .menu-container,
@@ -36,4 +37,21 @@
   background-repeat: no-repeat;
   background-size: cover;
   padding: 4rem 1rem;
+}
+
+.heading1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--title-color);
+  line-height: 3.5rem;
+  padding-top: 2rem;
+}
+
+.bio {
+  font-style: normal;
+  padding: 20px 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--text-color);
 }
