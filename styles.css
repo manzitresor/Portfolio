@@ -15,7 +15,6 @@
 
 .menu-container,
 .main {
-  width: 30%;
   margin: 0 auto;
   padding: 1rem;
 }
@@ -41,10 +40,10 @@
 }
 
 .heading1 {
-  font-size: 40px;
+  font-size: 51px;
   font-weight: 700;
   color: var(--title-color);
-  line-height: 3.5rem;
+  line-height: 4rem;
   padding-top: 2rem;
 }
 
@@ -72,19 +71,16 @@
 }
 
 @media only screen and (min-width: 375px) {
-  .menu-container {
-    width: auto;
-  }
-
-  .main {
-    width: auto;
-  }
+ .main{
+  width: auto;
+  padding: 5rem 2rem;
+  flex-wrap: nowrap;
+ }
 }
 
 @media only screen and (min-width: 768px) {
   .menu-container,
-  .main {
+  .main{
     width: 30%;
-    height: 100vh;
   }
 }
