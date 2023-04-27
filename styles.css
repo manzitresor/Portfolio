@@ -70,3 +70,17 @@
   display: flex;
   gap: 20px;
 }
+
+@media only screen and (min-width: 375px) {
+  .menu-container,
+  .main {
+    width: 43%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .menu-container,
+  .main {
+    width: 30%;
+  }
+}
