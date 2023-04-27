@@ -200,3 +200,8 @@ I would like to thank the Microverse team for making this program possible.
   - Any modern browser i.e.  Google Chrome,Firefox,Microsoft Edge, Apple Safari, Opera
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
