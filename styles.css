@@ -72,9 +72,12 @@
 }
 
 @media only screen and (min-width: 375px) {
-  .menu-container,
+  .menu-container {
+    width: auto;
+  }
+
   .main {
-    width: 43%;
+    width: auto;
   }
 }
 
@@ -82,5 +85,6 @@
   .menu-container,
   .main {
     width: 30%;
+    height: 100vh;
   }
 }
