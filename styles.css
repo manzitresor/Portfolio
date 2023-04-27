@@ -20,12 +20,13 @@
   padding: 1rem;
 }
 
-.navbar {
+.menu-container {
   display: flex;
   justify-content: space-between;
 }
 
 .logo {
+  text-decoration: none;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -66,7 +67,6 @@
 }
 
 .media-container {
-  list-style: none;
   display: flex;
   gap: 20px;
 }
