@@ -14,7 +14,8 @@
 }
 
 .menu-container,
-.main {
+.main,
+.grid-container {
   margin: 0 auto;
   padding: 1rem;
 }
@@ -66,8 +67,24 @@
 }
 
 .media-container {
+  list-style: none;
   display: flex;
   gap: 20px;
+}
+
+.grid-1 {
+  width: 335px;
+  height: 552px;
+  background-color: white;
+  align-items: center;
+  padding: 16px;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+}
+
+.grid-1 .project1 {
+  width: 295px;
+  height: 220px;
 }
 
 @media only screen and (min-width: 375px) {
@@ -80,7 +97,8 @@
 
 @media only screen and (min-width: 768px) {
   .menu-container,
-  .main {
+  .main,
+  .grid-container {
     width: 30%;
   }
 }
