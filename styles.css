@@ -74,7 +74,8 @@
 
 .grid-1,
 .grid-2,
-.grid-3 {
+.grid-3,
+.grid-4 {
   width: 335px;
   height: 552px;
   background-color: white;
