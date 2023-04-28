@@ -72,7 +72,8 @@
   gap: 20px;
 }
 
-.grid-1 {
+.grid-1,
+.grid-2 {
   width: 335px;
   height: 552px;
   background-color: white;
@@ -82,7 +83,7 @@
   border-radius: 16px;
 }
 
-.grid-1 .project1 {
+.project1 {
   width: 295px;
   height: 220px;
 }
@@ -144,6 +145,12 @@ button {
   border-radius: 16px;
   color: #396df2;
   padding: 8px;
+}
+
+button:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #396df2;
 }
 
 @media only screen and (min-width: 375px) {
