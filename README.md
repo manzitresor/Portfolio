@@ -156,8 +156,7 @@ Open index.html using liver server extension.
 
 > Features to be added in this project include.
 
-- Home Page For mobile version
-- About Page for mobile vesrion
+- Contact Section for mobile vesion
 - Desktop Version
 
 
