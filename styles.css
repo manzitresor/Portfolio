@@ -5,8 +5,9 @@
   --title-color: #172b4d;
   --text-color: #344563;
 }
-body{
-  background-color: #F7F7F9;
+
+body {
+  background-color: #f7f7f9;
 }
 
 * {
@@ -78,11 +79,12 @@ body{
   gap: 20px;
 }
 
-.grid-container{
+.grid-container {
   margin: 20px auto;
   display: grid;
   row-gap: 80px;
 }
+
 .grid-1,
 .grid-2,
 .grid-3 {
@@ -94,10 +96,11 @@ body{
   border: 1px solid #dfe1e6;
   border-radius: 16px;
 }
+
 .project1,
 .project2,
-.project3
-.project1 {
+.project3,
+.project4 {
   width: 295px;
   height: 220px;
 }
@@ -183,9 +186,7 @@ button:hover {
   background-color: #fff;
   border: 1px solid #dfe1e6;
   border-top-right-radius: 40px;
-  
 }
-
 
 @media only screen and (min-width: 375px) {
   .main {
