@@ -182,6 +182,7 @@ button:hover {
 }
 
 .about-section {
+  margin-top: 80px;
   width: 375px;
   height: auto;
   background-color: #fff;
