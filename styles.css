@@ -19,7 +19,8 @@ body {
 
 .menu-container,
 .main,
-.grid-container {
+.grid-container,
+.about-section {
   margin: 0 auto;
   padding: 1rem;
 }
@@ -180,12 +181,81 @@ button:hover {
   border-radius: 16px;
 }
 
-.grid-5 {
+.about-section {
   width: 375px;
-  height: 1263px;
+  height: auto;
   background-color: #fff;
   border: 1px solid #dfe1e6;
   border-top-right-radius: 40px;
+}
+
+.content-1 {
+  padding: 100px 0 10px 0;
+}
+
+.resume {
+  font-style: normal;
+  font-weight: 500;
+  width: 162px;
+  height: 48px;
+  background: #fff;
+  border: 1px solid #396df2;
+  border-radius: 16px;
+  color: #396df2;
+  padding: 8px;
+  margin-top: 15px;
+}
+
+.content-2 {
+  margin: 20px 0;
+  padding: 20px;
+}
+
+.lang {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lang span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.language-card {
+  list-style: none;
+  padding: 20px 0 0 0;
+  margin: 10px 0;
+}
+
+.language-card li {
+  display: flex;
+  background: #f7f7f9;
+  margin: 15px 0 15px 20px;
+  width: 303px;
+  height: 66.72px;
+  border-radius: 8px;
+}
+
+.language-card li span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 25px 20px;
+}
+
+.frem {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+hr {
+  margin-left: 10px;
+  width: 300px;
+  border: 0.5px solid #dfe1e6;
 }
 
 @media only screen and (min-width: 375px) {
@@ -199,7 +269,8 @@ button:hover {
 @media only screen and (min-width: 768px) {
   .menu-container,
   .main,
-  .grid-container {
+  .grid-container,
+  .about-section {
     width: 30%;
   }
 }
