@@ -297,11 +297,10 @@ hr {
   padding: 20px auto;
   display: flex;
   flex-direction: column;
-  
 }
 
 .contact-form input {
-  background-color:#fff;
+  background-color: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   padding: 12px;
