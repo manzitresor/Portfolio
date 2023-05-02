@@ -189,15 +189,18 @@
     </section>
  
     <section class="contact_section">
-        <h2>Contact me</h2>
-        <p>
+        <h2 class="contact-heading">Contact me</h2>
+        <p class="contact-content">
             If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it!
         </p>
-        <form class="contact-form">
-            <input type="text" name="name" value="Lorem Ipsum" placeholder="Name">
-            <input type="email" name="email" value="loremipsum@gmail.com" placeholder="Email">
-            <input type="text" name="message" placeholder="Enter yout message here...">
-            <button>Get in touch</button>
+        <form class="contact-form" action="https://formspree.io/f/xeqwngzr" method="POST">
+            <input type="text" name="name" placeholder="Lorem Ipsum" placeholder="Name">
+            <input type="email" name="email" placeholder="loremipsum@gmail.com" placeholder="Email">
+            <textarea  name="message">
+                Write your message here...
+            </textarea>
+
+            <button class="contact-btn" type="submit">Get in touch</button>
         </form>
     </section>
 </body>
