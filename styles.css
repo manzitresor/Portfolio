@@ -40,6 +40,10 @@ body {
   color: #6070ff;
 }
 
+.nav-list {
+  display: none;
+}
+
 .main {
   background-color: #fff;
   background-image: url('./images/header-shapes\ mobile.png');
@@ -57,7 +61,8 @@ body {
   padding-top: 2rem;
 }
 
-.bio {
+.bio,
+.bio1 {
   font-style: normal;
   padding: 20px 0;
   font-weight: 400;
@@ -347,11 +352,50 @@ hr {
 }
 
 @media only screen and (min-width: 768px) {
-  .menu-container,
-  .main,
   .grid-container,
   .about-section,
   .contact_section {
     width: 30%;
+  }
+
+  .menu-container {
+    padding: 10px 80px;
+  }
+
+  .navbar img {
+    display: none;
+  }
+
+  .nav-list {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+  }
+
+  .nav-list a {
+    text-decoration: none;
+  }
+
+  .main {
+    background-image: url('./images/header-shapes\ mobile@2x.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 15rem 10rem;
+    height: 90vh;
+  }
+
+  .heading1 {
+    width: 920px;
+    font-size: 34px;
+    line-height: 2rem;
+  }
+
+  .bio1 {
+    width: 920px;
+    height: 98px;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 10px 0 20px 0;
   }
 }
