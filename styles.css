@@ -495,8 +495,8 @@ hr {
   }
 
   .main-contact {
-  background-color: white;
-  padding: 20px 0 0 0;
+    background-color: #fff;
+    padding: 20px 0 0 0;
   }
 
   .contact_section {
@@ -504,23 +504,24 @@ hr {
     background-size: cover;
     width: 100%;
   }
-  
+
   .contact {
     display: flex;
     flex-direction: column;
-    margin:20px 200px;
+    margin: 20px 200px;
     width: 801px;
     align-items: center;
   }
- .contact-content {
-  width: 569px;
- }
 
- .contact-form {
-  width: 447px;
- }
+  .contact-content {
+    width: 569px;
+  }
 
-.contact-btn {
-  margin: 5px 30%; 
-}
+  .contact-form {
+    width: 447px;
+  }
+
+  .contact-btn {
+    margin: 5px 30%;
+  }
 }
