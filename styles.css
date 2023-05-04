@@ -274,7 +274,7 @@ hr {
   background-color: #6070ff;
   background-repeat: no-repeat;
   background-size: cover;
-  border-top-left-radius: 40px;
+  border-top-left-radius: 60px;
   margin-top: 65px;
 }
 
@@ -352,19 +352,20 @@ hr {
 }
 
 @media only screen and (min-width: 768px) {
-  .contact_section {
-    width: 30%;
-  }
-
   .menu-container {
     padding: 10px 80px;
+    position: fixed;
+    width: 100%;
   }
 
   .navbar img {
     display: none;
+    flex: 1 1 200px;
   }
 
   .nav-list {
+    margin-left: 50rem;
+    float: right;
     list-style: none;
     display: flex;
     gap: 10px;
@@ -492,4 +493,34 @@ hr {
   hr {
     width: 470px;
   }
+
+  .main-contact {
+  background-color: white;
+  padding: 20px 0 0 0;
+  }
+
+  .contact_section {
+    background-image: url('./images/contact\ form\ background\ shapes.svg');
+    background-size: cover;
+    width: 100%;
+  }
+  
+  .contact {
+    display: flex;
+    flex-direction: column;
+    margin:20px 200px;
+    width: 801px;
+    align-items: center;
+  }
+ .contact-content {
+  width: 569px;
+ }
+
+ .contact-form {
+  width: 447px;
+ }
+
+.contact-btn {
+  margin: 5px 30%; 
+}
 }
