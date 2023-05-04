@@ -82,6 +82,7 @@ Portfolio is My Second project as a Micronaut.
 > The key features added in this project.
 
 - Mobile Version
+- Desktop Version
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -156,7 +157,7 @@ Open index.html using liver server extension.
 
 > Features to be added in this project include.
 
-- Desktop Version
+- Annimations and Transitions
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
