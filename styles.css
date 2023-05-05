@@ -389,6 +389,8 @@ hr {
     width: 920px;
     font-size: 34px;
     line-height: 2rem;
+    transition-duration: 4s;
+    transition-delay: 2s;
   }
 
   .bio1 {
