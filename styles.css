@@ -74,6 +74,10 @@ body {
   color: var(--text-color);
 }
 
+button {
+  transition: all 0.3s ease-in-out;
+}
+
 .conn {
   color: #7f8cff;
   padding-bottom: 15px;
@@ -344,10 +348,6 @@ hr {
   color: #396df2;
   padding: 8px;
   margin-top: 15px;
-}
-
-button {
-  transition: all 0.3s ease-in-out;
 }
 
 @media only screen and (min-width: 375px) {
