@@ -20,9 +20,6 @@ REQUIRED SECTIONS:
 -->
 
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="./murple_logo.png" alt="logo" width="150"  height="auto" />
-  <br/>
 
   <h3><b>Portfolio Project README Doc</b></h3>
 
@@ -53,7 +50,7 @@ REQUIRED SECTIONS:
 
 # 📖 Portfolio <a name="about-project"></a>
 
-Portfolio is My Second project as a Micronaut.
+ Portfolio is My Second project as a Micronaut.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -83,6 +80,14 @@ Portfolio is My Second project as a Micronaut.
 
 - Mobile Version
 - Desktop Version
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Live Demo <a name="live-demo"></a>
+
+> Live demo
+
+- This is live demo Link : (https://manzitresor.github.io/Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -146,7 +151,7 @@ Open index.html using liver server extension.
 👤 Manzi Tresor
 
 - GitHub: [@githubhandle](https://github.com/manzitresor)
--Twitter: [@githubhandle](https://twitter.com/MANZITresor3)
+- Twitter: [@githubhandle](https://twitter.com/MANZITresor3)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/manzi-tresor-783b4022a/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -157,7 +162,7 @@ Open index.html using liver server extension.
 
 > Features to be added in this project include.
 
-- Annimations and Transitions
+- Javascript functionality
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
