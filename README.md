@@ -53,7 +53,9 @@ REQUIRED SECTIONS:
 
 # 📖 Portfolio <a name="about-project"></a>
 
-Portfolio is My Second project as a Micronaut.
+> Portfolio is My Second project as a Micronaut.
+> Live demo [_here_](https://manzitresor.github.io/Portfolio/).
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -146,7 +148,7 @@ Open index.html using liver server extension.
 👤 Manzi Tresor
 
 - GitHub: [@githubhandle](https://github.com/manzitresor)
--Twitter: [@githubhandle](https://twitter.com/MANZITresor3)
+- Twitter: [@githubhandle](https://twitter.com/MANZITresor3)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/manzi-tresor-783b4022a/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
