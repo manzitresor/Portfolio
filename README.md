@@ -53,9 +53,7 @@ REQUIRED SECTIONS:
 
 # 📖 Portfolio <a name="about-project"></a>
 
-> Portfolio is My Second project as a Micronaut.
-> Live demo [_here_](https://manzitresor.github.io/Portfolio/).
-
+ Portfolio is My Second project as a Micronaut.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -85,6 +83,14 @@ REQUIRED SECTIONS:
 
 - Mobile Version
 - Desktop Version
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Live Demo <a name="live-demo"></a>
+
+> Live demo
+
+- This is live demo Link : (https://manzitresor.github.io/Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -159,7 +165,7 @@ Open index.html using liver server extension.
 
 > Features to be added in this project include.
 
-- Annimations and Transitions
+- Javascript functionality
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
