@@ -148,8 +148,8 @@ Feel free to check the <a href="https://github.com/manzitresor/Portfolio/issues"
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, please support me
-- You can follow me on Github <a href ="https://github.com/manzitresor.git">[@githubhandle]</a> 
+If you like this project,
+- You can follow me on Github <a href ="https://github.com/manzitresor">[@githubhandle]</a> 
 - You can give me a star ⭐ to this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
