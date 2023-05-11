@@ -21,7 +21,7 @@ REQUIRED SECTIONS:
 
 <div align="center">
 
-  <h3><b>Portfolio Project README Doc</b></h3>
+  <h3><b>Microverse Portfolio Project</b></h3>
 
 </div>
 
