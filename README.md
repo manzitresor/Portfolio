@@ -1,23 +1,5 @@
-# Portfolio
 
 <a name="readme-top"></a>
-
-<!--
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Key Features
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-- FAQ
-
--->
 
 <div align="center">
 
@@ -75,9 +57,6 @@ REQUIRED SECTIONS:
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-
-> The key features added in this project.
-
 - Mobile Version
 - Desktop Version
 
@@ -85,9 +64,7 @@ REQUIRED SECTIONS:
 
 ### Live Demo <a name="live-demo"></a>
 
-> Live demo
-
-- This is live demo Link : (https://manzitresor.github.io/Portfolio/)
+- live demo Link: (https://manzitresor.github.io/Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -95,9 +72,7 @@ REQUIRED SECTIONS:
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> To get started as a deveoper, below is instructions on how to make use of this project.
-
-To get a local copy up and running, follow these steps.
+> To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
@@ -134,19 +109,11 @@ Install this project with:
   npm install
 ```
 
-### Usage
-
-To run the project, execute the following command:
-
-Open index.html using liver server extension.
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-
-> This is a solo project, successfully submitted by myself;
 
 👤 Manzi Tresor
 
@@ -173,7 +140,7 @@ Open index.html using liver server extension.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to Reach Out To me 
+Feel free to check the <a href="https://github.com/manzitresor/Portfolio/issues">issues page</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -181,7 +148,9 @@ Feel free to Reach Out To me
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, please support me by following me on Github; <a href ="https://github.com/manzitresor/Hello_Microverse.git">Manzi</a> and give a star to this project.
+If you like this project, please support me
+- You can follow me on Github <a href ="https://github.com/manzitresor.git">[@githubhandle]</a> 
+- You can give me a star ⭐ to this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -189,7 +158,7 @@ If you like this project, please support me by following me on Github; <a href =
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank the Microverse team for making this program possible.
+I would like to thank the Microverse community
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
