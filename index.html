@@ -9,17 +9,28 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
 </head>
 <body>
-    <header class="menu-container">
+    <header class="">
+        <!-- nav bar -->
+        <nav class="menu-container">
             <a href="#" class="logo">My Logo</a>
-            <nav class="navbar">
-                <img src="./images/Union.png" alt="menu" onclick="openMenu()">
+            <div class="navbar">
+                <img src="./images/Union.png" alt="menu" id="menu-btn" class="menu-btn">
                 <ul class="nav-list">
                     <li><a href="#">Portfolio</a></li>
                     <li><a href="#">about</a></li>
                     <li><a href="#">contact</a></li>
-
                 </ul>
-            </nav>
+            </div>
+        </nav>
+       <!-- mobile menu -->
+       <nav class="mobile-menu">
+        <li class="close-btn">&times;</li>
+        <ul class="list-menu">
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">contact</a></li>
+        </ul>
+       </nav>
     </header>
     <section class="main">
         <h2 class="heading1">I'm Manzi. <br/>Glad to see you!</h2>
