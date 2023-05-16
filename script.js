@@ -52,7 +52,7 @@ const projects = [
     categorise: ['HTML,CSS,JAVASCRIPT'],
     link: '#',
   },
-]
+];
 
 const projectsSection = document.querySelector('.projects-container');
 
