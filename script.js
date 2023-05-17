@@ -132,7 +132,7 @@ seeProjectButtons.forEach((button, index) => {
         </a>
         <a href="#" id="popup-link" class="see-live">
         <span>seeSource</span>
-        <img src="./images/github.png" class="see-image">
+        <img src="./images/github.svg" class="see-image">
         </a>
         </div>
         </div>
