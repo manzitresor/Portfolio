@@ -126,7 +126,7 @@ seeProjectButtons.forEach((button, index) => {
         </ul>
         <hr class="contact-line">
         <div class="see-container">
-        <a href="#" id="popup-link" class="see-live">
+        <a href="https://github.com/manzitresor/Portfolio" id="popup-link" class="see-live" target="_blank">
         <span>seeLive</span>
         <img src="./images/Icon - Export.svg" class="see-image">
         </a>
