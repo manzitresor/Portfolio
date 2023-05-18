@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800;900&family=Poppins:wght@400;500;600;700&display=swap');
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 :root {
   --first-color: #6070ff;
   --title-color: #172b4d;
@@ -19,7 +23,7 @@ body {
 
 .menu-container,
 .main,
-.grid-container,
+.projects-container,
 .about-section,
 .contact_section {
   margin: 0 auto;
@@ -116,12 +120,117 @@ body {
   padding-top: 2rem;
 }
 
+/* project popup start here */
+.popup-container {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 10, 30, 0.5);
+  z-index: 9999;
+}
+
+.popup-content {
+  position: relative;
+  width: 85%;
+  height: 95%;
+  background-color: #fff;
+  align-items: center;
+  padding: 5px 16px;
+  border: 1px solid #dfe1e6;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-y: scroll;
+  margin-top: 20px;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 50px;
+  color: #67798e;
+  list-style: none;
+  font-size: 30px;
+}
+
+.close-button:hover {
+  cursor: pointer;
+}
+
+#popup-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: var(--title-color);
+  padding: 5px 0;
+}
+
+.popup-categories li {
+  display: inline-block;
+  margin: 5px;
+}
+
+.see-container {
+  display: flex;
+  gap: 10px;
+  margin: auto;
+}
+
+.see-live {
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+  width: 118px;
+  height: 40px;
+  background: #fff;
+  border: 1px solid #396df2;
+  border-radius: 8px;
+  color: #396df2;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#cate {
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.contact-line {
+  border: 0.5px solid #ebecf0;
+  margin-bottom: 20px;
+  width: 250px;
+  margin-left: 0;
+}
+
+.popup-image {
+  width: 100%;
+  height: 30%;
+  object-fit: cover;
+  margin: 20px auto;
+}
+
+.biography {
+  width: 90%;
+  height: 30%;
+  font-weight: 400px;
+  font-size: 15px;
+  line-height: 20px;
+  color: #344563;
+}
+
+/* project popup ends here */
 .bio,
 .bio1 {
   font-style: normal;
   padding: 20px 0;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 24px;
   color: var(--text-color);
 }
@@ -145,15 +254,15 @@ button {
   gap: 20px;
 }
 
-.grid-container {
+.projects-container {
   margin: 20px auto;
   display: grid;
   row-gap: 80px;
 }
 
-.grid-1,
-.grid-2,
-.grid-3 {
+.project-1,
+.project-2,
+.project-3 {
   width: 335px;
   height: 552px;
   background-color: #fff;
@@ -165,7 +274,7 @@ button {
   margin-right: auto;
 }
 
-.grid-4 {
+.project-4 {
   width: 327px;
   height: 596px;
   background-color: #fff;
@@ -178,9 +287,9 @@ button {
 }
 
 .card1-image,
-.project2,
-.project3,
-.project4 {
+.card2-image,
+.card3-image,
+.card4-image {
   width: 295px;
   height: 220px;
 }
@@ -235,13 +344,20 @@ button {
 .see-project {
   font-style: normal;
   font-weight: 500;
+  text-decoration: none;
   width: 118px;
   height: 40px;
   background: #fff;
   border: 1px solid #396df2;
   border-radius: 16px;
   color: #396df2;
-  padding: 8px;
+  padding: 10px;
+}
+
+.see-project:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #396df2;
 }
 
 button:hover {
@@ -464,10 +580,10 @@ hr {
     margin: 10px 0 20px 0;
   }
 
-  .grid-1,
-  .grid-2,
-  .grid-3,
-  .grid-4 {
+  .project-1,
+  .project-2,
+  .project-3,
+  .project-4 {
     height: 496px;
     width: 1100px;
     border-radius: 24px;
@@ -476,19 +592,19 @@ hr {
     padding: 0 40px;
   }
 
-  .grid-1 {
+  .project-1 {
     order: 3;
   }
 
-  .grid-2 {
+  .project-2 {
     order: 4;
   }
 
-  .grid-3 {
+  .project-3 {
     order: 1;
   }
 
-  .grid-4 {
+  .project-4 {
     order: 2;
   }
 
@@ -588,5 +704,59 @@ hr {
 
   .contact-btn {
     margin: 5px 30%;
+  }
+
+  .error {
+    color:#bd1335;
+    font-size: 15px;
+    margin: 10px;
+  }
+
+  .popup-content {
+    width: 90%;
+    height: 90%;
+    display: block;
+    gap: 20px;
+    padding: 0 auto;
+    margin: 20px auto;
+    overflow-y: scroll;
+  }
+
+  .popup-image {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    margin: 20px auto;
+  }
+
+  .card-content {
+    display: flex;
+    margin: 20px auto;
+  }
+
+  .biography {
+    width: 700px;
+    height: 113px;
+    font-weight: 400px;
+    font-size: 15px;
+    line-height: 30px;
+    color: #344563;
+  }
+
+  .contact-container {
+    display: block;
+    margin: 0 auto;
+  }
+
+  #cate {
+    margin-left: 15px;
+    margin-bottom: 5px;
+  }
+
+  .contact-line {
+    border: 0.5px solid #ebecf0;
+    margin-bottom: 20px;
+    width: 250px;
+    margin-left: 15px;
   }
 }

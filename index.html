@@ -46,121 +46,17 @@
             <li><a href="#"><img src="./images/Vector (3).png"></a></li> 
           </ul>
     </section>
-
-    <section class="grid-container" id="works">
-       <div class="grid-1">
-         <img src="./images/Snapshoot Portfolio.svg" alt="card1-image" class="card1-image">
-                <div class="card-one-content">
-                <h2 class="ton">Tonic</h2>
-                    <div class="canopy">
-                        <h3>canopy</h3>
-                        <span>
-                            <img src="./images/Counter.png">
-                            back end dev
-                        </span>
-                        <span>
-                            <img src="./images/Counter.png">
-                            2015
-                        </span>
-                    </div>
-                    <p class="bio">
-                        A daily selection of privately personalized reads;
-                        no accounts or sign-ups required.
-                    </p>
-                        <ul class="categories">
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JAVASCRIPT</li>
-                        </ul>
-                    <button class="see-project">See Project</button>
-                </div>
-       </div> 
-       <div class="grid-2">
-        <img src="./images/Snapshoot Portfolio (1).svg" alt="card2-image" class="card2-image">
-        <div class="card-two-content">
-                <h2 class="ton">Tonic</h1>
-                <div class="canopy">
-                    <h3>canopy</h3>
-                    <span>
-                        <img src="./images/Counter.png">
-                        back end dev
-                    </span>
-                    <span>
-                        <img src="./images/Counter.png">
-                        2015
-                    </span>
-                </div>
-                <p class="bio">
-                    A daily selection of privately personalized reads;
-                    no accounts or sign-ups required.
-                </p>
-                    <ul class="categories">
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JAVASCRIPT</li>
-                    </ul>
-                <button class="see-project">See Project</button>
-                </div>
-      </div> 
-
-      <div class="grid-3">
-        <img src="./images/Snapshoot Portfolio (2).svg" alt="card3-image" class="card3-image">
-                <div class="card-three-content">
-                <h2 class="ton">Tonic</h2>
-                <div class="canopy">
-                    <h3>canopy</h3>
-                    <span>
-                        <img src="./images/Counter.png">
-                        back end dev
-                    </span>
-                    <span>
-                        <img src="./images/Counter.png">
-                        2015
-                    </span>
-                </div>
-                <p class="bio">
-                    A daily selection of privately personalized reads;
-                    no accounts or sign-ups required.
-                </p>
-                    <ul class="categories">
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JAVASCRIPT</li>
-                    </ul>
-                <button class="see-project">See Project</button>
-                </div>
-      </div>
-    
-      <div class="grid-4">
-        <img src="./images/Snapshoot Portfolio (3).svg" alt="card4-image" class="card4-image">
-                <div class="card-four-content">
-                <h2 class="ton">Multi-Post Stories</h2>
-                <div class="canopy">
-                    <h3>canopy</h3>
-                    <span>
-                        <img src="./images/Counter.png">
-                        back end dev
-                    </span>
-                    <span>
-                        <img src="./images/Counter.png">
-                        2015
-                    </span>
-                </div>
-                <p class="bio">
-                    A daily selection of privately personalized reads;
-                    no accounts or sign-ups required.
-                </p>
-                    <ul class="categories">
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JAVASCRIPT</li>
-                    </ul>
-                <button class="see-project">See Project</button>
-            </div> 
-    </div> 
+<!-- projects section -->
+    <section class="projects-container">
+        
+        
     </section>
-
-        <section class="about-section" id="about">
+    <!-- pop up window -->
+    <div class="popup-container" id="popup-container">
+        
+    </div>
+      
+    <section class="about-section" id="about">
         <div class="content-1">
             <h2 class="ton">About Myself</h1>
             <p class="bio">
@@ -221,11 +117,10 @@
             If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it!
         </p>
         <form class="contact-form" action="https://formspree.io/f/xeqwngzr" method="POST">
-            <input type="text" name="name" placeholder="Lorem Ipsum" maxlength="30" required>
-            <input type="email" name="email" placeholder="loremipsum@gmail.com" required> 
-            <small id="email-message"></small>
+            <input type="text" name="name" placeholder="Lorem Ipsum"  maxlength="30" required>
+            <input type="email" name="email" placeholder="loremipsum@gmail.com" class="email" required>  
             <textarea placeholder="Write your message here..." maxlength="500" name="message" required></textarea>
-            <small></small>
+            <small class="error"></small>
             <button class="contact-btn" type="submit">Get in touch</button>
         </form>
     </div>
