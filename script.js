@@ -128,6 +128,11 @@ seeProjectButtons.forEach((button, index) => {
         <div class="see-container">
         <a href="https://github.com/manzitresor/Portfolio" id="popup-link" class="see-live" target="_blank">
         <span>seeLive</span>
+        <img src="./images/Icon.png" class="see-image">
+        </a>
+        <a href="#" id="popup-link" class="see-live">
+        <span>seeSource</span>
+        <img src="./images/github.png" class="see-image">
         <img src="./images/Icon - Export.svg" class="see-image">
         </a>
         <a href="#" id="popup-link" class="see-live">
@@ -148,4 +153,19 @@ seeProjectButtons.forEach((button, index) => {
       popupContainer.innerHTML = '';
     });
   });
+});
+
+const form = document.querySelector('.contact-form');
+const email = document.querySelector('.email');
+const errorMsg = document.querySelector('.error');
+
+form.addEventListener('submit', (event) => {
+  const emailValue = email.value;
+  const emailchecker = emailValue.replace(/[^a-zA-Z]/g, '').split('');
+  for (let counter = 0; counter < emailchecker.length; counter += 1) {
+    if (emailchecker[counter] === emailchecker[counter].toUpperCase()) {
+      errorMsg.innerText = 'Please enter a correct email address format';
+      event.preventDefault();
+    }
+  }
 });
