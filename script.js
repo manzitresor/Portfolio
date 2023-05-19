@@ -163,3 +163,30 @@ form.addEventListener('submit', (event) => {
     }
   }
 });
+const storedData = localStorage.getItem('formData');
+
+// Check if there's any stored data
+if (storedData) {
+  const formData = JSON.parse(storedData);
+
+  // Fill the form fields with the stored data
+  document.getElementById('name').value = formData.name || '';
+  document.getElementById('email').value = formData.email || '';
+  document.getElementById('message').value = formData.message || '';
+}
+
+// Listen for changes in the input fields
+const formInputs = document.querySelectorAll('input, textarea');
+
+function saveFormData() {
+  const formData = {
+    name: document.getElementById('name').value,
+    email: document.getElementById('email').value,
+    message: document.getElementById('message').value,
+  };
+  // Save the data to local storage
+  localStorage.setItem('formData', JSON.stringify(formData));
+}
+formInputs.forEach((input) => {
+  input.addEventListener('input', saveFormData);
+});
