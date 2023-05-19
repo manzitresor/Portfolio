@@ -104,8 +104,8 @@ seeProjectButtons.forEach((button, index) => {
     const project = projects[index];
     const containerHTML = `
     <div class="popup-content">
-    <li class="close-button" id="close-button">&times;</li>
-    <h2 id="popup-title">${project.name}</h2>
+    <li
+    <h2 id="popup-title">${project.name}< class="close-button" id="close-button">&times;</li>/h2>
     <div class="canopy">
             <h3>canopy</h3>
             <span>
@@ -164,7 +164,7 @@ form.addEventListener('submit', (event) => {
   const emailchecker = emailValue.replace(/[^a-zA-Z]/g, '').split('');
   for (let counter = 0; counter < emailchecker.length; counter += 1) {
     if (emailchecker[counter] === emailchecker[counter].toUpperCase()) {
-      errorMsg.innerText = 'Please enter a correct email address format';
+      errorMsg.innerText = 'Invalid,Email should be in Lowercase';
       event.preventDefault();
     }
   }
