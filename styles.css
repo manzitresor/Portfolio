@@ -109,7 +109,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 4rem 1rem;
-  border-bottom-left-radius: 40px;
+  border-bottom-left-radius: 80px;
 }
 
 .heading1 {
@@ -230,7 +230,7 @@ body {
   font-style: normal;
   padding: 20px 0;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 1.2rem;
   line-height: 24px;
   color: var(--text-color);
 }
@@ -263,8 +263,8 @@ button {
 .project-1,
 .project-2,
 .project-3 {
-  width: 335px;
-  height: 552px;
+  width: 100%;
+  height: 100%;
   background-color: #fff;
   align-items: center;
   padding: 16px;
@@ -275,8 +275,8 @@ button {
 }
 
 .project-4 {
-  width: 327px;
-  height: 596px;
+  width: 100%;
+  height: 100%;
   background-color: #fff;
   align-items: center;
   padding: 16px;
@@ -290,14 +290,15 @@ button {
 .card2-image,
 .card3-image,
 .card4-image {
-  width: 295px;
-  height: 220px;
+  width: 100%;
+  object-fit: cover;
+  height: 40%;
 }
 
 .ton {
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 2rem;
   line-height: 44px;
   color: var(--title-color);
   padding: 14px 0;
@@ -311,7 +312,7 @@ button {
 .canopy h3 {
   font-style: normal;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 1rem;
   line-height: 16px;
   text-transform: uppercase;
 }
@@ -319,7 +320,7 @@ button {
 .canopy span {
   font-style: normal;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 1rem;
   line-height: 16px;
   color: #7a869a;
 }
@@ -330,12 +331,12 @@ button {
   color: #6070ff;
   font-style: normal;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 1rem;
   line-height: 16px;
 }
 
 .categories li {
-  padding: 4px 12px;
+  padding: 6px 12px;
   background: #ebebff;
   border-radius: 8px;
   margin: 0 10px 20px 0;
@@ -349,7 +350,7 @@ button {
   height: 40px;
   background: #fff;
   border: 1px solid #396df2;
-  border-radius: 16px;
+  border-radius: 10px;
   color: #396df2;
   padding: 10px;
 }
@@ -368,14 +369,14 @@ button:hover {
 
 .about-section {
   margin-top: 80px;
-  width: 375px;
+  width:100%;
   height: auto;
   background-color: #fff;
-  border-top-right-radius: 60px;
+  border-top-right-radius: 80px;
 }
 
 .content-1 {
-  padding: 100px 0 10px 0;
+  padding: 100px 0 10px 10px;
 }
 
 .resume {
@@ -443,6 +444,11 @@ hr {
   border: 0.5px solid #dfe1e6;
 }
 
+.main-contact {
+  background-color: #fff;
+  padding: 20px 0 0 0;
+}
+
 .contact_section {
   background-image: url('./images/header-shapes\ mobile@2x.svg');
   padding: 4rem 1rem;
@@ -451,6 +457,13 @@ hr {
   background-size: cover;
   border-top-left-radius: 60px;
   margin-top: 65px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
 }
 
 .contact-heading {
@@ -470,13 +483,14 @@ hr {
   line-height: 28px;
   color: #ebebff;
   text-align: center;
-  width: 327px;
+  width: 90%;
 }
 
 .contact-form {
   padding: 20px auto;
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .contact-form input {
@@ -516,6 +530,12 @@ hr {
   color: #396df2;
   padding: 8px;
   margin-top: 15px;
+}
+
+.error {
+  color: #851027;
+  font-size: 1rem;
+  margin: 10px;
 }
 
 @media only screen and (min-width: 375px) {
@@ -584,12 +604,12 @@ hr {
   .project-2,
   .project-3,
   .project-4 {
-    height: 496px;
-    width: 1100px;
+    width: 90%;
+    height: 100%;
     border-radius: 24px;
     display: flex;
     gap: 20px;
-    padding: 0 40px;
+    padding: 6% 40px;
   }
 
   .project-1 {
@@ -689,27 +709,21 @@ hr {
   .contact {
     display: flex;
     flex-direction: column;
-    margin: 20px 200px;
-    width: 801px;
+    width: 100%;
     align-items: center;
   }
 
   .contact-content {
-    width: 569px;
+    width: 40%;
   }
 
   .contact-form {
-    width: 447px;
+    width: 50%;
   }
 
   .contact-btn {
-    margin: 5px 30%;
-  }
-
-  .error {
-    color: #bd1335;
-    font-size: 15px;
-    margin: 10px;
+    margin: 10px 30%;
+    font-size: 100%;
   }
 
   .popup-content {

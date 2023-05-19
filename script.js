@@ -104,8 +104,7 @@ seeProjectButtons.forEach((button, index) => {
     const project = projects[index];
     const containerHTML = `
     <div class="popup-content">
-    <li
-    <h2 id="popup-title">${project.name}<li class="close-button" id="close-button">&times;</li>/h2>
+    <h2 id="popup-title">${project.name}<li class="close-button" id="close-button">&times;</li></h2>
     <div class="canopy">
             <h3>canopy</h3>
             <span>
