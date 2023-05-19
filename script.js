@@ -105,7 +105,7 @@ seeProjectButtons.forEach((button, index) => {
     const containerHTML = `
     <div class="popup-content">
     <li
-    <h2 id="popup-title">${project.name}< class="close-button" id="close-button">&times;</li>/h2>
+    <h2 id="popup-title">${project.name}<li class="close-button" id="close-button">&times;</li>/h2>
     <div class="canopy">
             <h3>canopy</h3>
             <span>
@@ -133,11 +133,6 @@ seeProjectButtons.forEach((button, index) => {
         <a href="#" id="popup-link" class="see-live">
         <span>seeSource</span>
         <img src="./images/github.png" class="see-image">
-        <img src="./images/Icon - Export.svg" class="see-image">
-        </a>
-        <a href="#" id="popup-link" class="see-live">
-        <span>seeSource</span>
-        <img src="./images/github.svg" class="see-image">
         </a>
         </div>
         </div>
