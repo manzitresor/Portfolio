@@ -32,7 +32,7 @@
 
 # 📖 Portfolio <a name="about-project"></a>
 
- Portfolio is My Second project as a Micronaut.
+ Portfolio is My Second project as a Microverse Student.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -129,7 +129,7 @@ Install this project with:
 
 > Features to be added in this project include.
 
-- Javascript functionality
+- Tablet Version
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
