@@ -272,6 +272,7 @@ button {
   border-radius: 16px;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 10px 10px 5px rgb(159, 153, 153);
 }
 
 .project-4 {
@@ -284,6 +285,7 @@ button {
   border-radius: 16px;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 10px 10px 5px rgb(159, 153, 153);
 }
 
 .card1-image,
@@ -581,19 +583,21 @@ hr {
     background-size: cover;
     width: 100%;
     padding: 10rem 10rem;
-    height: 90vh;
+    height: 95vh;
+  }
+
+  .main-container {
+    margin: 10% 7%;
   }
 
   .heading1 {
     width: 920px;
     font-size: 34px;
     line-height: 2rem;
-    transition-duration: 4s;
-    transition-delay: 2s;
   }
 
   .bio1 {
-    width: 920px;
+    width: 100%;
     height: 98px;
     font-size: 20px;
     line-height: 28px;
