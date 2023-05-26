@@ -2,7 +2,7 @@ const openBtn = document.getElementById('menu-btn');
 const menuContain = document.querySelector('.menu-container');
 const mobileMenu = document.querySelector('.mobile-menu');
 const closeBtn = document.querySelector('.close-btn');
-const listMenu = document.querySelectorAll('.list-menu');
+const listMenu = document.querySelector('.list-menu');
 // Humberg button when clicked
 openBtn.addEventListener('click', (event) => {
   event.preventDefault();
