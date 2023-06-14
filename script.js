@@ -25,14 +25,14 @@ listMenu.forEach((button) => {
 // Project cards data/object
 const projects = [
   {
-    name: 'Tonic',
-    image: './images/Snapshoot Portfolio.svg',
-    description: ' A daily selection of privately personalized reads;no accounts or sign-ups required.',
+    name: 'Artwork Gallery',
+    image: './images/capstoneProject1.png',
+    description: ' personalized reads;no accounts or sign-ups required.',
     categorise: ['HTML', 'CSS', 'JAVASCRIPT'],
     link: '#',
-    details: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the  standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,',
-    seeLive: '#',
-    seeSource: '#',
+    details: 'ArtWork Gallery website designed to help artists expose their artwork. Users can explore artworks and artists. Built with HTML',
+    seeLive: 'https://manzitresor.github.io/capstone-project-1/',
+    seeSource: 'https://github.com/manzitresor/capstone-project-1.git',
   },
   {
     name: 'Tonic',
@@ -125,11 +125,11 @@ seeProjectButtons.forEach((button, index) => {
         </ul>
         <hr class="contact-line">
         <div class="see-container">
-        <a href="https://github.com/manzitresor/Portfolio" id="popup-link" class="see-live" target="_blank">
+        <a href="${project.seeLive}" id="popup-link" class="see-live" target="_blank">
         <span>seeLive</span>
         <img src="./images/Icon.png" class="see-image">
         </a>
-        <a href="#" id="popup-link" class="see-live">
+        <a href="${project.seeSource}" id="popup-link" class="see-live">
         <span>seeSource</span>
         <img src="./images/github.png" class="see-image">
         </a>
